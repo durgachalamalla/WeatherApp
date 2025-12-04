@@ -33,6 +33,7 @@ fun WeatherScreen( cityName: String, wvm : WeatherViewModel = viewModel()){
                 Text(fontSize = 35.sp, text = "Feels Like: " + data.value!!.main.feels_like.toString())
 
                 Text(fontSize = 40.sp, text = data.value!!.weather[0].description)
+                Text(text = "github connection test")
             }
         }
     }
